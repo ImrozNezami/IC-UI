@@ -1,0 +1,38 @@
+badge-container {
+  position: relative;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.badge-number {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  transform: translate(1%, -50%);
+}
+.lg-icon {
+  font-size: 2rem;
+}
+.badge-avatar-sm {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  transform: translate(250%, -80%);
+}
+.badge-avatar-md {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  transform: translate(320%, -100%);
+}
+.badge-avatar-lg {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  transform: translate(380%, -100%);
+}
