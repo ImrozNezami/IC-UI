@@ -1,0 +1,212 @@
+/* utility classes for background and foreground color */
+
+.bgWhite {
+  background-color: var(--white);
+}
+.colorWhite {
+  color: var(--white);
+}
+.bgGray {
+  background-color: var(--gray);
+}
+.colorGray {
+  color: var(--gray);
+}
+.bgDarkgray {
+  background-color: var(--darkgray);
+}
+.colorDarkgray {
+  color: var(--darkgray);
+}
+.bgLightRed {
+  background-color: var(--fadedred);
+}
+.colorLightRed {
+  color: var(--fadedred);
+}
+.bgRed {
+  background-color: var(--flatred);
+}
+.colorRed {
+  color: var(--flatred);
+}
+.bgAlertRed {
+  background-color: var(--alertred);
+}
+.colorAlertRed {
+  color: var(--alertred);
+}
+.bgLightGreen {
+  background-color: var(--fadedgreen);
+}
+.colorLightGreen {
+  color: var(--fadedgreen);
+}
+.bgGreen {
+  background-color: var(--flatgreen);
+}
+.colorGreen {
+  color: var(--flatgreen);
+}
+.bgDarkGreen {
+  background-color: var(--alertgreen);
+}
+.colorDarkGreen {
+  color: var(--alertgreen);
+}
+.bgLightYellow {
+  background-color: var(--fadedyellow);
+}
+.colorLightYellow {
+  color: var(--fadedyellow);
+}
+.bgAlertYellow {
+  background-color: var(--alertyellow);
+}
+.colorAlertYellow {
+  color: var(--alertyellow);
+}
+.bgLightBlue {
+  background-color: var(--fadedblue);
+}
+.colorLightBlue {
+  color: var(--fadedblue);
+}
+.bgBlue {
+  background-color: var(--flatblue);
+}
+.colorBlue {
+  color: var(--flatblue);
+}
+.bgAlertBlue {
+  background-color: var(--alertblue);
+}
+.colorAlertBlue {
+  color: var(--alertblue);
+}
+.bgPurple {
+  background-color: var(--flatpurple);
+}
+.colorPurple {
+  color: var(--flatpurple);
+}
+
+/* utility classes for different borders */
+
+.bdYellow {
+  border-color: var(--alertyellow);
+}
+.bdPurple {
+  border-color: var(--flatpurple);
+}
+.bdBlue {
+  border-color: var(--flatblue);
+}
+.bdGreen {
+  border-color: var(--flatgreen);
+}
+.bdBlack {
+  border-color: var(--secondary-color);
+}
+.bdGray {
+  border-color: var(--gray);
+}
+.bdSolid {
+  border-style: solid;
+}
+.bdDotted {
+  border-style: dotted;
+}
+.bdSRadius {
+  border-radius: 5px;
+}
+.bdMRadius {
+  border-radius: 10px;
+}
+.bdLRadius {
+  border-radius: 15px;
+}
+.bdFullRadius {
+  border-radius: 999px;
+}
+.bd1 {
+  border: 1px solid;
+}
+.bd2 {
+  border: 2px solid;
+}
+.bd3 {
+  border: 3px solid;
+}
+.bd4 {
+  border: 4px solid;
+}
+.bd5 {
+  border: 5px solid;
+}
+/* utility classes for padding and margin */
+.pad-1 {
+  padding: 0.5rem;
+}
+
+.pad-2 {
+  padding: 1rem;
+}
+.pad-3 {
+  padding: 1.5rem;
+}
+.pad-4 {
+  padding: 2rem;
+}
+
+.mar-1 {
+  margin: 0.5rem;
+}
+.mar-2 {
+  margin: 1rem;
+}
+.mar-3 {
+  margin: 1.5rem;
+}
+.mar-4 {
+  margin: 2rem;
+}
+
+.pad-1-2 {
+  padding: 0.5rem 1rem;
+}
+
+.pad-1-3 {
+  padding: 0.5rem 1.5rem;
+}
+.pad-1-4 {
+  padding: 0.5rem 2rem;
+}
+
+.pad-2-1 {
+  padding: 1rem 0.5rem;
+}
+.pad-2-3 {
+  padding: 1rem 1.5rem;
+}
+.pad-2-4 {
+  padding: 1rem 2rem;
+}
+.pad-3-1 {
+  padding: 1.5rem 0.5rem;
+}
+.pad-3-2 {
+  padding: 1.5rem 1rem;
+}
+.pad-3-4 {
+  padding: 1.5rem 2rem;
+}
+.pad-4-1 {
+  padding: 2rem 0.5rem;
+}
+.pad-4-2 {
+  padding: 2rem 1rem;
+}
+.pad-4-3 {
+  padding: 2rem 1.5rem;
+}
