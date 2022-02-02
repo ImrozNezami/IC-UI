@@ -1,0 +1,82 @@
+.btn {
+  padding: 1rem 1.2rem;
+  font-weight: bold;
+  margin: 1.2rem;
+  cursor: pointer;
+  background: none;
+  outline: inherit;
+  color: var(--white);
+  border: none;
+}
+.btn:active {
+  border: 2px solid;
+  border-color: var(--alertblue);
+}
+.btn-primary {
+  background-color: var(--primary);
+}
+.font-sm {
+  font-size: 1rem;
+}
+.btn-success {
+  background-color: var(--flatgreen);
+}
+.btn-warning {
+  background-color: var(--alertyellow);
+}
+.btn-alert {
+  background-color: var(--alertred);
+}
+.btn-secondary {
+  background-color: var(--flatblue);
+}
+.btn-icon {
+  background-color: var(--white);
+  color: var(--darkgray);
+  background: none;
+  outline: inherit;
+  border: none;
+  cursor: pointer;
+}
+.btn-icon:active {
+  border: 1px solid;
+  border-color: var(--alertblue);
+}
+.font-md {
+  font-size: 2rem;
+}
+.btn-link {
+  color: var(--darkgray);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+  outline: inherit;
+  cursor: pointer;
+}
+.btn-link:active {
+  border: 1px solid;
+  border-color: var(--alertblue);
+}
+.md-primary {
+  font-size: 1.2rem;
+  padding: 1.3rem;
+}
+.lg-primary {
+  width: 70%;
+}
+.btn-float {
+  width: 70px;
+  height: 70px;
+  background: var(--primary);
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.btn-float:active {
+  background: var(--flatblue);
+}
