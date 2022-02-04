@@ -1,0 +1,22 @@
+.av-sm {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.av-md {
+  width: 7rem;
+  height: 7rem;
+}
+.av-lg {
+  width: 10rem;
+  height: 10rem;
+}
+.av-img {
+  height: 100%;
+  width: 100%;
+}
+.avatar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}

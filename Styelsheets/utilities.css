@@ -144,6 +144,9 @@
 .bd5 {
   border: 5px solid;
 }
+.circle {
+  border-radius: 50%;
+}
 /* utility classes for padding and margin */
 .pad-1 {
   padding: 0.5rem;
