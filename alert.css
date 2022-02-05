@@ -6,60 +6,39 @@
 .alert p {
   margin-left: 0.7rem;
 }
-
-.success-alert {
+.alert {
   font-size: 1.1rem;
   text-align: center;
   width: 70%;
-  background-color: var(--alertgreen);
   display: flex;
   flex-wrap: wrap;
   gap: 2.4rem;
 }
-.warning-alert {
-  font-size: 1.1rem;
-  text-align: center;
-  width: 70%;
-  background-color: var(--alertyellow);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.4rem;
-}
-.error-alert {
-  font-size: 1.1rem;
-  text-align: center;
-  width: 70%;
-  background-color: var(--flatred);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.4rem;
-}
-.feature-alert {
-  font-size: 1.1rem;
-  text-align: center;
-  width: 70%;
-  background-color: var(--flatblue);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.4rem;
-}
-.success-icon {
+.alert i {
   margin-top: 0.8rem;
   margin-left: 0.8rem;
+}
+.success-alert {
+  background-color: var(--alertgreen);
+}
+.warning-alert {
+  background-color: var(--alertyellow);
+}
+.error-alert {
+  background-color: var(--flatred);
+}
+.feature-alert {
+  background-color: var(--flatblue);
+}
+.success-icon {
   color: var(--flatgreen);
 }
 .warning-icon {
-  margin-top: 0.8rem;
-  margin-left: 0.8rem;
   color: var(--fadedyellow);
 }
 .error-icon {
-  margin-top: 0.8rem;
-  margin-left: 0.8rem;
   color: var(--alertred);
 }
 .feature-icon {
-  margin-top: 0.8rem;
-  margin-left: 0.8rem;
   color: var(--alertblue);
 }
