@@ -213,3 +213,13 @@
 .pad-4-3 {
   padding: 2rem 1.5rem;
 }
+/* Utility classes for font-size*/
+.font-sm {
+  font-size: 1rem;
+}
+.font-md {
+  font-size: 2rem;
+}
+.font-lg {
+  font-size: 4rem;
+}
