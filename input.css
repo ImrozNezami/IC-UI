@@ -1,0 +1,30 @@
+.inp input {
+  width: 30%;
+  line-height: 2.5rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background: none;
+  border: 2px solid;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+}
+.inp-normal input:focus {
+  border-color: var(--alertblue);
+}
+
+label {
+  display: block;
+}
+.inp-error input {
+  border-color: var(--alertred);
+}
+.inp-text-area {
+  width: 60%;
+  height: 10rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  resize: none;
+  background-color: var(--gray);
+  padding: 1.2rem;
+  margin: 1.2rem;
+}
