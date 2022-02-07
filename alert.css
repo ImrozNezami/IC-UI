@@ -1,0 +1,44 @@
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alert p {
+  margin-left: 0.7rem;
+}
+.alert {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+.alert i {
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+.success-alert {
+  background-color: var(--alertgreen);
+}
+.warning-alert {
+  background-color: var(--alertyellow);
+}
+.error-alert {
+  background-color: var(--flatred);
+}
+.feature-alert {
+  background-color: var(--flatblue);
+}
+.success-icon {
+  color: var(--flatgreen);
+}
+.warning-icon {
+  color: var(--fadedyellow);
+}
+.error-icon {
+  color: var(--alertred);
+}
+.feature-icon {
+  color: var(--alertblue);
+}
