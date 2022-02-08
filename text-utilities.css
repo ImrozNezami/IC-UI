@@ -1,0 +1,18 @@
+heading-size-large {
+  font-size: 1.7rem;
+}
+.heading-size-medium {
+  font-size: 1.3rem;
+}
+.heading-size-small {
+  font-size: 1rem;
+}
+.small-text {
+  font-size: 0.8rem;
+}
+.gray-text {
+  color: var(--darkgray);
+}
+.center-text {
+  text-align: center;
+}
