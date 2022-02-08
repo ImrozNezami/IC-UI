@@ -1,0 +1,54 @@
+.nav-bar {
+  display: flex;
+  background-color: var(--white);
+  border: 3px solid var(--lightgray);
+  gap: 0.9rem;
+  padding: 0.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.6rem;
+  justify-content: space-around;
+}
+.navbar-icons {
+  display: flex;
+  gap: 2.2rem;
+}
+.nav-inp {
+  padding: 0.6rem;
+  width: 20%;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border: 2px solid;
+  border-radius: 0.4rem;
+}
+.nav-title {
+  margin-left: 0.8rem;
+}
+.nav-btn {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: var(--flatblue);
+  border: none;
+  padding: 0.7rem 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-icon-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+}
+.nav-icon-badge {
+  position: absolute;
+  bottom: 1.6rem;
+  left: 1.2rem;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 0.9rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  background-color: var(--alertred);
+  font-weight: bold;
+}
