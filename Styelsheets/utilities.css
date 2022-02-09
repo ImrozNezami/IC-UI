@@ -223,3 +223,8 @@
 .font-lg {
   font-size: 4rem;
 }
+/* utility class for removing outline */
+.remove-outline {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
