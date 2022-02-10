@@ -28,7 +28,7 @@ a {
   height: 3.4rem;
   font-size: 1.3rem;
   box-shadow: 10px 10px 8px #888888;
-  padding: 0.2rem;
+  padding: 0.6rem;
 }
 .scroll-bar-element:hover {
   background-color: var(--flatblue);
