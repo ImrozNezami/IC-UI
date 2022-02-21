@@ -47,3 +47,33 @@ a {
   padding-right: 5rem;
   padding-left: calc(3rem + 30%);
 }
+.nav {
+  display: flex;
+  box-shadow: 10px 10px 8px #888888;
+}
+.nav-img {
+  width: 10vw;
+  height: 10vh;
+  object-fit: cover;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+.nav-icon {
+  margin-left: auto;
+  margin-right: 1.3rem;
+}
+.nav-title {
+  font-size: 2.5rem;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.git-img {
+  height: 8vh;
+  padding: 1rem;
+}
+.scroll-intro {
+  margin-bottom: 2rem;
+}
